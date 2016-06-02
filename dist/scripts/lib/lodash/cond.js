@@ -1,0 +1,1 @@
+define(["./_apply","./_arrayMap","./_baseIteratee","./rest"],function(r,n,t,e){function a(a){var i=a?a.length:0,o=t;return a=i?n(a,function(r){if("function"!=typeof r[1])throw new TypeError(f);return[o(r[0]),r[1]]}):[],e(function(n){for(var t=-1;++t<i;){var e=a[t];if(r(e[0],this,n))return r(e[1],this,n)}})}var f="Expected a function";return a});

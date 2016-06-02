@@ -1,0 +1,1 @@
+define(["./assignIn"],function(n){return n});

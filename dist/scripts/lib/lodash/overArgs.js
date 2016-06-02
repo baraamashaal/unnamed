@@ -1,0 +1,1 @@
+define(["./_apply","./_arrayMap","./_baseFlatten","./_baseIteratee","./_baseUnary","./isArray","./_isFlattenableIteratee","./rest"],function(e,t,a,r,n,i,l,s){var h=Math.min,u=s(function(u,_){_=1==_.length&&i(_[0])?t(_[0],n(r)):t(a(_,1,l),n(r));var f=_.length;return s(function(t){for(var a=-1,r=h(t.length,f);++a<r;)t[a]=_[a].call(this,t[a]);return e(u,this,t)})});return u});

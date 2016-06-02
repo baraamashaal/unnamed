@@ -1,0 +1,1 @@
+define(["./_baseSum","./identity"],function(n,e){function t(t){return t&&t.length?n(t,e):0}return t});

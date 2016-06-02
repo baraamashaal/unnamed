@@ -1,0 +1,1 @@
+define(["./toNumber"],function(r){function n(n){if(!n)return 0===n?n:0;if(n=r(n),n===e||n===-e){var u=0>n?-1:1;return u*t}return n===n?n:0}var e=1/0,t=1.7976931348623157e308;return n});

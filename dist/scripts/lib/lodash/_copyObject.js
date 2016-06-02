@@ -1,0 +1,1 @@
+define(["./_assignValue"],function(n){function r(r,e,t,u){t||(t={});for(var a=-1,f=e.length;++a<f;){var i=e[a],o=u?u(t[i],r[i],i,t,r):r[i];n(t,i,o)}return t}return r});

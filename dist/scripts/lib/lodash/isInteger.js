@@ -1,0 +1,1 @@
+define(["./toInteger"],function(n){function e(e){return"number"==typeof e&&e==n(e)}return e});

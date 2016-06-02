@@ -1,0 +1,1 @@
+define([],function(){function n(n,a,e){return n>=r(a,e)&&n<t(a,e)}var t=Math.max,r=Math.min;return n});

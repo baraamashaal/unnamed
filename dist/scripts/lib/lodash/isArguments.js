@@ -1,0 +1,1 @@
+define(["./isArrayLikeObject"],function(e){function r(r){return e(r)&&n.call(r,"callee")&&(!a.call(r,"callee")||c.call(r)==t)}var t="[object Arguments]",l=Object.prototype,n=l.hasOwnProperty,c=l.toString,a=l.propertyIsEnumerable;return r});

@@ -1,0 +1,1 @@
+define(["./toInteger","./toNumber","./toString"],function(t,e,n){function r(r){var u=Math[r];return function(r,o){if(r=e(r),o=i(t(o),292)){var a=(n(r)+"e").split("e"),f=u(a[0]+"e"+(+a[1]+o));return a=(n(f)+"e").split("e"),+(a[0]+"e"+(+a[1]-o))}return u(r)}}var i=Math.min;return r});

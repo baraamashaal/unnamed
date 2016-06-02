@@ -1,0 +1,1 @@
+define(["./before"],function(n){function e(e){return n(2,e)}return e});

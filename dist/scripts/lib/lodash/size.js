@@ -1,0 +1,1 @@
+define(["./_getTag","./isArrayLike","./isObjectLike","./isString","./keys","./_stringSize"],function(e,r,i,t,n,u){function f(f){if(null==f)return 0;if(r(f)){var s=f.length;return s&&t(f)?u(f):s}if(i(f)){var c=e(f);if(c==a||c==g)return f.size}return n(f).length}var a="[object Map]",g="[object Set]";return f});

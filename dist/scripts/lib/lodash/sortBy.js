@@ -1,0 +1,1 @@
+define(["./_baseFlatten","./_baseOrderBy","./isArray","./_isFlattenableIteratee","./_isIterateeCall","./rest"],function(e,t,r,n,a,l){var i=l(function(l,i){if(null==l)return[];var s=i.length;return s>1&&a(l,i[0],i[1])?i=[]:s>2&&a(i[0],i[1],i[2])&&(i=[i[0]]),i=1==i.length&&r(i[0])?i[0]:e(i,1,n),t(l,i,[])});return i});

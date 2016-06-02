@@ -1,0 +1,1 @@
+define(["./_createPadding","./_stringSize","./toInteger","./toString"],function(r,t,n,e){function i(i,f,u){i=e(i),f=n(f);var c=f?t(i):0;if(!f||c>=f)return i;var g=(f-c)/2;return r(o(g),u)+i+r(a(g),u)}var a=Math.ceil,o=Math.floor;return i});

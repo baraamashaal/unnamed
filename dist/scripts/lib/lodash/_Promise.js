@@ -1,0 +1,1 @@
+define(["./_getNative","./_root"],function(e,r){var t=e(r,"Promise");return t});

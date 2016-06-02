@@ -1,0 +1,1 @@
+define(["./debounce","./isObject"],function(n,i){function e(e,r,a){var o=!0,c=!0;if("function"!=typeof e)throw new TypeError(t);return i(a)&&(o="leading"in a?!!a.leading:o,c="trailing"in a?!!a.trailing:c),n(e,r,{leading:o,maxWait:r,trailing:c})}var t="Expected a function";return e});

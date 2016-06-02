@@ -1,0 +1,1 @@
+define(["./isObjectLike"],function(t){function e(e){return t(e)?o.call(e)==r||"string"==typeof e.message&&"string"==typeof e.name:!1}var r="[object Error]",n=Object.prototype,o=n.toString;return e});

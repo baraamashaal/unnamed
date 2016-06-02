@@ -1,0 +1,1 @@
+define(["./_Symbol"],function(e){function n(e){return o?Object(o.call(e)):{}}var t,r=e?e.prototype:t,o=r?r.valueOf:t;return n});

@@ -1,0 +1,1 @@
+define([],function(){function n(n){return function(r,e,t){for(var f=-1,u=Object(r),i=t(r),c=i.length;c--;){var o=i[n?c:++f];if(e(u[o],o,u)===!1)break}return r}}return n});

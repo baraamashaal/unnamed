@@ -1,0 +1,1 @@
+define(["./isArray","./isFunction"],function(n,i){function r(r){return n(r)&&!(2==r.length&&!i(r[0]))}return r});

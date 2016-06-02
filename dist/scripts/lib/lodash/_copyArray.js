@@ -1,0 +1,1 @@
+define([],function(){function n(n,r){var e=-1,t=n.length;for(r||(r=Array(t));++e<t;)r[e]=n[e];return r}return n});

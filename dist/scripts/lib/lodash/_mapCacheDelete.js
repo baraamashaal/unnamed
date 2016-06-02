@@ -1,0 +1,1 @@
+define(["./_getMapData"],function(e){function t(t){return e(this,t)["delete"](t)}return t});

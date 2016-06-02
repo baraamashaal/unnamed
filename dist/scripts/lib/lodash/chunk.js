@@ -1,0 +1,1 @@
+define(["./_baseSlice","./_isIterateeCall","./toInteger"],function(e,r,t){function a(a,l,u){l=(u?r(a,l,u):l===n)?1:f(t(l),0);var c=a?a.length:0;if(!c||1>l)return[];for(var o=0,h=0,v=Array(i(c/l));c>o;)v[h++]=e(a,o,o+=l);return v}var n,i=Math.ceil,f=Math.max;return a});

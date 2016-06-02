@@ -1,0 +1,1 @@
+define(["./isObjectLike"],function(t){function e(e){return t(e)&&c.call(e)==r}var r="[object ArrayBuffer]",n=Object.prototype,c=n.toString;return e});

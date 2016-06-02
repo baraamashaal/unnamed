@@ -1,0 +1,1 @@
+define(["./_baseGet"],function(n){function e(e){return function(t){return null==e?r:n(e,t)}}var r;return e});

@@ -1,0 +1,1 @@
+define(["./isNumber"],function(n){function e(e){return n(e)&&e!=+e}return e});

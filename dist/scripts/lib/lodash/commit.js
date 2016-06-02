@@ -1,0 +1,1 @@
+define(["./_LodashWrapper"],function(n){function e(){return new n(this.value(),this.__chain__)}return e});

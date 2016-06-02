@@ -1,0 +1,1 @@
+define(["./_baseIsMatch","./_getMatchData","./_matchesStrictComparable"],function(t,n,e){function a(a){var r=n(a);return 1==r.length&&r[0][2]?e(r[0][0],r[0][1]):function(n){return n===a||t(n,a,r)}}return a});

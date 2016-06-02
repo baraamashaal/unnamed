@@ -1,0 +1,1 @@
+define([],function(){function n(n){var r=new n.constructor(n.source,e.exec(n));return r.lastIndex=n.lastIndex,r}var e=/\w*$/;return n});

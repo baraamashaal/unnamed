@@ -31,8 +31,9 @@ html(lang='')
     script.
       requirejs.config({
           baseUrl: 'scripts',
-          //- paths: {
-          //-     app: '../app'
-          //- }
+          paths: {
+              jquery: 'lib/jquery',
+              lodash: 'lib/lodash'
+          }
       });
       requirejs(['boot']);

@@ -31,14 +31,23 @@ gulp.task('styles', () => {
     .pipe(reload({stream: true}));
 });
 
-gulp.task('scripts', () => {
-  return gulp.src('app/scripts/**/*.js')
+function scripts(src) {
+  return gulp.src(src)
     .pipe($.plumber())
     .pipe($.sourcemaps.init())
     .pipe($.babel())
     .pipe($.sourcemaps.write('.'))
     .pipe(gulp.dest('.tmp/scripts'))
     .pipe(reload({stream: true}));
+}
+
+
+gulp.task('scripts', () => {
+  return scripts(['app/scripts/**/*.js', '!app/scripts/lib/**/*.js'])
+});
+
+gulp.task('scripts:build', () => {
+  return scripts('app/scripts/**/*.js')
 });
 
 function lint(files, options) {
@@ -51,7 +60,17 @@ function lint(files, options) {
 
 gulp.task('lint', () => {
   return lint('app/scripts/**/*.js', {
-    fix: true
+    fix: true,
+    "env": {
+        "es6": true,
+        "browser": true
+    },
+    "ecmaFeatures": {
+        "sourceType": "module"
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    }
   })
     .pipe(gulp.dest('app/scripts'));
 });
@@ -65,8 +84,8 @@ gulp.task('lint:test', () => {
     .pipe(gulp.dest('test/spec/**/*.js'));
 });
 
-gulp.task('html', ['jade', 'styles', 'scripts'], () => {
-  return gulp.src(['app/**/*.html', '.tmp/**/*.html'])
+gulp.task('html', ['jade', 'styles', 'scripts:build'], () => {
+  return gulp.src(['.tmp/**/*.js', '.tmp/**/*.html'])
     .pipe($.useref({searchPath: ['.tmp', 'app', '.']}))
     .pipe($.if('*.js', $.uglify()))
     .pipe($.if('*.css', $.cssnano({safe: true, autoprefixer: false})))

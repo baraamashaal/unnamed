@@ -1,0 +1,1 @@
+define(["./toInteger"],function(n){function t(t,r){if("function"!=typeof r)throw new TypeError(e);return t=n(t),function(){return--t<1?r.apply(this,arguments):void 0}}var e="Expected a function";return t});

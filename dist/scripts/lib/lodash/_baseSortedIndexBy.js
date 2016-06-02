@@ -1,0 +1,1 @@
+define(["./isSymbol"],function(n){function r(r,e,i,o){e=i(e);for(var u=0,v=r?r.length:0,h=e!==e,c=null===e,m=n(e),s=e===l;v>u;){var M=a((u+v)/2),b=i(r[M]),d=b!==l,g=null===b,y=b===b,S=n(b);if(h)var j=o||y;else j=s?y&&(o||d):c?y&&d&&(o||!g):m?y&&d&&!g&&(o||!S):g||S?!1:o?e>=b:e>b;j?u=M+1:v=M}return f(v,t)}var l,e=4294967295,t=e-1,a=Math.floor,f=Math.min;return r});

@@ -1,0 +1,1 @@
+define(["./_baseIndexOf","./toInteger"],function(n,e){function r(r,a,u){var f=r?r.length:0;if(!f)return-1;var i=null==u?0:e(u);return 0>i&&(i=t(f+i,0)),n(r,a,i)}var t=Math.max;return r});

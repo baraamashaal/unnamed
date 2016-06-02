@@ -1,0 +1,1 @@
+define(["./_ListCache","./_MapCache"],function(_,t){function a(a,e){var i=this.__data__;return i instanceof _&&i.__data__.length==n&&(i=this.__data__=new t(i.__data__)),i.set(a,e),this}var n=200;return a});

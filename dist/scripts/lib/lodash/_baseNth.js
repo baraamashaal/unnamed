@@ -1,0 +1,1 @@
+define(["./_isIndex"],function(n){function e(e,i){var t=e.length;if(t)return i+=0>i?t:0,n(i,t)?e[i]:r}var r;return e});

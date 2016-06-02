@@ -1,0 +1,1 @@
+define(["./forEachRight"],function(n){return n});

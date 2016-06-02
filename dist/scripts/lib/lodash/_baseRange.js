@@ -1,0 +1,1 @@
+define([],function(){function r(r,t,e,f){for(var i=-1,u=a(n((t-r)/(e||1)),0),c=Array(u);u--;)c[f?u:++i]=r,r+=e;return c}var n=Math.ceil,a=Math.max;return r});

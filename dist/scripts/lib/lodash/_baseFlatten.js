@@ -1,0 +1,1 @@
+define(["./_arrayPush","./_isFlattenable"],function(n,r){function e(t,a,u,f,i){var l=-1,h=t.length;for(u||(u=r),i||(i=[]);++l<h;){var o=t[l];a>0&&u(o)?a>1?e(o,a-1,u,f,i):n(i,o):f||(i[i.length]=o)}return i}return e});

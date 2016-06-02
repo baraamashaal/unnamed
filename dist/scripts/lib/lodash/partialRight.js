@@ -1,0 +1,1 @@
+define(["./_createWrapper","./_getHolder","./_replaceHolders","./rest"],function(e,r,n,t){var a,c=64,l=t(function(t,o){var d=n(o,r(l));return e(t,c,a,o,d)});return l.placeholder={},l});

@@ -1,0 +1,1 @@
+define(["./_apply","./isError","./rest"],function(r,n,t){var e,u=t(function(t,u){try{return r(t,e,u)}catch(c){return n(c)?c:new Error(c)}});return u});

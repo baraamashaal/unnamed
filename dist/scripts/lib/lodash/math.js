@@ -1,0 +1,1 @@
+define(["./add","./ceil","./divide","./floor","./max","./maxBy","./mean","./meanBy","./min","./minBy","./multiply","./round","./subtract","./sum","./sumBy"],function(m,i,n,a,u,d,e,y,l,r,t,B,o,s,c){return{add:m,ceil:i,divide:n,floor:a,max:u,maxBy:d,mean:e,meanBy:y,min:l,minBy:r,multiply:t,round:B,subtract:o,sum:s,sumBy:c}});

@@ -1,0 +1,1 @@
+define([],function(){function n(n,e){for(var r=-1,t=e.length,f=n.length;++r<t;)n[f+r]=e[r];return n}return n});

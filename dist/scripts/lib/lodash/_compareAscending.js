@@ -1,0 +1,1 @@
+define(["./isSymbol"],function(n){function r(r,i){if(r!==i){var e=r!==u,f=null===r,t=r===r,l=n(r),o=i!==u,a=null===i,c=i===i,v=n(i);if(!a&&!v&&!l&&r>i||l&&o&&c&&!a&&!v||f&&o&&c||!e&&c||!t)return 1;if(!f&&!l&&!v&&i>r||v&&e&&t&&!f&&!l||a&&e&&t||!o&&t||!c)return-1}return 0}var u;return r});

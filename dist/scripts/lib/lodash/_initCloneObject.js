@@ -1,0 +1,1 @@
+define(["./_baseCreate","./_getPrototype","./_isPrototype"],function(t,e,n){function o(o){return"function"!=typeof o.constructor||n(o)?{}:t(e(o))}return o});

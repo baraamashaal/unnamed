@@ -1,0 +1,1 @@
+define(["./_root"],function(n){function e(n){return"number"==typeof n&&r(n)}var r=n.isFinite;return e});

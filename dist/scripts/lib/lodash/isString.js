@@ -1,0 +1,1 @@
+define(["./isArray","./isObjectLike"],function(t,r){function e(e){return"string"==typeof e||!t(e)&&r(e)&&o.call(e)==n}var n="[object String]",i=Object.prototype,o=i.toString;return e});

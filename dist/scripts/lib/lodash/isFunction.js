@@ -1,0 +1,1 @@
+define(["./isObject"],function(t){function n(n){var r=t(n)?c.call(n):"";return r==e||r==o}var e="[object Function]",o="[object GeneratorFunction]",r=Object.prototype,c=r.toString;return n});

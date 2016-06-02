@@ -1,0 +1,1 @@
+define(["./_baseToString","./_castSlice","./_charsEndIndex","./_charsStartIndex","./_stringToArray","./toString"],function(r,n,t,e,i,a){function c(c,u,f){if(c=a(c),c&&(f||u===s))return c.replace(o,"");if(!c||!(u=r(u)))return c;var _=i(c),d=i(u),g=e(_,d),S=t(_,d)+1;return n(_,g,S).join("")}var s,o=/^\s+|\s+$/g;return c});

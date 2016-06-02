@@ -1,0 +1,1 @@
+define(["./toString"],function(e){function n(n){return n=e(n),n&&t.test(n)?n.replace(r,"\\$&"):n}var r=/[\\^$.*+?()[\]{}|]/g,t=RegExp(r.source);return n});

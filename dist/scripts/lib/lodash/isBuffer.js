@@ -1,0 +1,1 @@
+define(["./_root","./stubFalse"],function(e,o){var t,r="object"==typeof exports&&exports,n=r&&"object"==typeof module&&module,f=n&&n.exports===r,u=f?e.Buffer:t,s=u?function(e){return e instanceof u}:o;return s});

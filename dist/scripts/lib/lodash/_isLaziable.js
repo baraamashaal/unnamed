@@ -1,0 +1,1 @@
+define(["./_LazyWrapper","./_getData","./_getFuncName","./wrapperLodash"],function(r,e,n,t){function a(a){var u=n(a),f=t[u];if("function"!=typeof f||!(u in r.prototype))return!1;if(a===f)return!0;var i=e(f);return!!i&&a===i[0]}return a});

@@ -1,0 +1,1 @@
+define(["./_mapCacheClear","./_mapCacheDelete","./_mapCacheGet","./_mapCacheHas","./_mapCacheSet"],function(e,t,a,p,o){function r(e){var t=-1,a=e?e.length:0;for(this.clear();++t<a;){var p=e[t];this.set(p[0],p[1])}}return r.prototype.clear=e,r.prototype["delete"]=t,r.prototype.get=a,r.prototype.has=p,r.prototype.set=o,r});

@@ -1,0 +1,1 @@
+define(["./_LazyWrapper","./_LodashWrapper","./_baseLodash","./isArray","./isObjectLike","./_wrapperClone"],function(r,e,t,o,n,p){function a(t){if(n(t)&&!o(t)&&!(t instanceof r)){if(t instanceof e)return t;if(c.call(t,"__wrapped__"))return p(t)}return new e(t)}var i=Object.prototype,c=i.hasOwnProperty;return a.prototype=t.prototype,a.prototype.constructor=a,a});

@@ -1,0 +1,1 @@
+define(["./_isIterateeCall","./rest"],function(n,t){function e(e){return t(function(t,f){var u=-1,i=f.length,o=i>1?f[i-1]:r,a=i>2?f[2]:r;for(o=e.length>3&&"function"==typeof o?(i--,o):r,a&&n(f[0],f[1],a)&&(o=3>i?r:o,i=1),t=Object(t);++u<i;){var c=f[u];c&&e(t,c,u,o)}return t})}var r;return e});

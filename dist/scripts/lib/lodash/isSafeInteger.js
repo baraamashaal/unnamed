@@ -1,0 +1,1 @@
+define(["./isInteger"],function(n){function e(e){return n(e)&&e>=-r&&r>=e}var r=9007199254740991;return e});

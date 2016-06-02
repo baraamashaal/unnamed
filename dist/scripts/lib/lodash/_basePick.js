@@ -1,0 +1,1 @@
+define(["./_arrayReduce"],function(n){function e(e,r){return e=Object(e),n(r,function(n,r){return r in e&&(n[r]=e[r]),n},{})}return e});

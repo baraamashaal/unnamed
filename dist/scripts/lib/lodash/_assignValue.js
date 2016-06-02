@@ -1,0 +1,1 @@
+define(["./eq"],function(n){function e(e,t,a){var c=e[t];o.call(e,t)&&n(c,a)&&(a!==r||t in e)||(e[t]=a)}var r,t=Object.prototype,o=t.hasOwnProperty;return e});

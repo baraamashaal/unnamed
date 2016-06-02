@@ -1,0 +1,1 @@
+define(["./_getNative","./_root"],function(e,t){var a=e(t,"WeakMap");return a});

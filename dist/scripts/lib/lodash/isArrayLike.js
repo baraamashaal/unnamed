@@ -1,0 +1,1 @@
+define(["./_getLength","./isFunction","./isLength"],function(n,t,e){function i(i){return null!=i&&e(n(i))&&!t(i)}return i});

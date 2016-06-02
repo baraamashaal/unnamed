@@ -1,0 +1,1 @@
+define(["./_cloneArrayBuffer"],function(e){function r(r,f){var n=f?e(r.buffer):r.buffer;return new r.constructor(n,r.byteOffset,r.byteLength)}return r});

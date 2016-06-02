@@ -1,0 +1,1 @@
+define([],function(){function n(n,r){if(r)return n.slice();var e=new n.constructor(n.length);return n.copy(e),e}return n});

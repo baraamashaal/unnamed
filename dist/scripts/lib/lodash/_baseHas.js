@@ -1,0 +1,1 @@
+define(["./_getPrototype"],function(t){function e(e,n){return null!=e&&(o.call(e,n)||"object"==typeof e&&n in e&&null===t(e))}var n=Object.prototype,o=n.hasOwnProperty;return e});

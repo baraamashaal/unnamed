@@ -1,0 +1,1 @@
+define([],function(){function n(n){var t=typeof n;return!!n&&("object"==t||"function"==t)}return n});

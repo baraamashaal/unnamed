@@ -1,0 +1,1 @@
+define(["./_createMathOperation"],function(n){var e=n(function(n,e){return n*e});return e});

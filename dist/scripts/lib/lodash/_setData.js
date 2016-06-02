@@ -1,0 +1,1 @@
+define(["./_baseSetData","./now"],function(n,r){var e=150,t=16,u=function(){var u=0,a=0;return function(f,i){var o=r(),c=t-(o-a);if(a=o,c>0){if(++u>=e)return f}else u=0;return n(f,i)}}();return u});

@@ -1,0 +1,1 @@
+define(["./_baseToPairs","./_getTag","./_mapToArray","./_setToPairs"],function(r,e,t,n){function a(a){return function(u){var c=e(u);return c==o?t(u):c==i?n(u):r(u,a(u))}}var o="[object Map]",i="[object Set]";return a});

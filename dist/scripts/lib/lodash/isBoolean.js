@@ -1,0 +1,1 @@
+define(["./isObjectLike"],function(t){function e(e){return e===!0||e===!1||t(e)&&r.call(e)==n}var n="[object Boolean]",o=Object.prototype,r=o.toString;return e});

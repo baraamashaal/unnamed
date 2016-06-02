@@ -1,0 +1,1 @@
+define(["./capitalize","./_createCompounder"],function(e,n){var r=n(function(n,r,t){return r=r.toLowerCase(),n+(t?e(r):r)});return r});

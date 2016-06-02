@@ -1,0 +1,1 @@
+define(["./clamp","./inRange","./random"],function(n,a,e){return{clamp:n,inRange:a,random:e}});

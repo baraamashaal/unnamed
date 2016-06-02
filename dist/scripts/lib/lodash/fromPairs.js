@@ -1,0 +1,1 @@
+define([],function(){function n(n){for(var r=-1,e=n?n.length:0,t={};++r<e;){var f=n[r];t[f[0]]=f[1]}return t}return n});

@@ -1,0 +1,1 @@
+define(["./_baseSum"],function(n){function e(e,t){var u=e?e.length:0;return u?n(e,t)/u:r}var r=NaN;return e});

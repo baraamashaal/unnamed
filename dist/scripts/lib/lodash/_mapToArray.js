@@ -1,0 +1,1 @@
+define([],function(){function n(n){var r=-1,e=Array(n.size);return n.forEach(function(n,f){e[++r]=[f,n]}),e}return n});

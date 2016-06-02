@@ -1,0 +1,1 @@
+define(["./memoize","./toString"],function(e,n){var r=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(\.|\[\])(?:\4|$))/g,t=/\\(\\)?/g,i=e(function(e){var i=[];return n(e).replace(r,function(e,n,r,u){i.push(r?u.replace(t,"$1"):n||e)}),i});return i});

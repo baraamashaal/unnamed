@@ -1,0 +1,1 @@
+define(["./_baseInvoke","./rest"],function(e,n){var r=n(e);return r});

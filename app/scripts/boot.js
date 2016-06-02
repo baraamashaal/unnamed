@@ -1,1 +1,1 @@
-console.log('\'Allo \'Allo!');
+import Alert from 'alert';

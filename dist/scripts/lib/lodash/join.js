@@ -1,0 +1,1 @@
+define([],function(){function n(n,r){return n?t.call(n,r):""}var r=Array.prototype,t=r.join;return n});

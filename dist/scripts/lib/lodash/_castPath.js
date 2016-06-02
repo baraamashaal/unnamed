@@ -1,0 +1,1 @@
+define(["./isArray","./_stringToPath"],function(n,r){function t(t){return n(t)?t:r(t)}return t});

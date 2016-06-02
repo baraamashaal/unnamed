@@ -1,0 +1,1 @@
+define(["./_baseRandom","./isArrayLike","./values"],function(n,e,r){function a(a){var t=e(a)?a:r(a),u=t.length;return u>0?t[n(0,u-1)]:i}var i;return a});

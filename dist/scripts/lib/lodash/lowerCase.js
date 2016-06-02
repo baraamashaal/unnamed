@@ -1,0 +1,1 @@
+define(["./_createCompounder"],function(e){var n=e(function(e,n,r){return e+(r?" ":"")+n.toLowerCase()});return n});

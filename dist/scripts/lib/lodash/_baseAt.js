@@ -1,0 +1,1 @@
+define(["./get"],function(n){function r(r,t){for(var u=-1,f=null==r,a=t.length,i=Array(a);++u<a;)i[u]=f?e:n(r,t[u]);return i}var e;return r});

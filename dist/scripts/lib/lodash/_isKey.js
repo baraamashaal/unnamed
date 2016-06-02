@@ -1,0 +1,1 @@
+define(["./isArray","./isSymbol"],function(n,e){function r(r,i){if(n(r))return!1;var l=typeof r;return"number"==l||"symbol"==l||"boolean"==l||null==r||e(r)?!0:u.test(r)||!t.test(r)||null!=i&&r in Object(i)}var t=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,u=/^\w*$/;return r});

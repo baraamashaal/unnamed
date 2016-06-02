@@ -1,0 +1,1 @@
+define([],function(){function t(t){if(null!=t){try{return n.call(t)}catch(r){}try{return t+""}catch(r){}}return""}var n=Function.prototype.toString;return t});

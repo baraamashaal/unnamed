@@ -1,0 +1,1 @@
+define(["./_arrayFilter","./isFunction"],function(n,r){function t(t,i){return n(i,function(n){return r(t[n])})}return t});

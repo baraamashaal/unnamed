@@ -1,0 +1,1 @@
+define(["./isArrayLike","./isObjectLike"],function(e,i){function n(n){return i(n)&&e(n)}return n});

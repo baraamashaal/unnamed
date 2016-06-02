@@ -1,0 +1,1 @@
+define(["./_baseFlatten","./map"],function(n,e){function t(t,r){return n(e(t,r),1)}return t});

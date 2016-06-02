@@ -1,0 +1,1 @@
+define(["./isSymbol"],function(n){function r(r){if("string"==typeof r||n(r))return r;var e=r+"";return"0"==e&&1/r==-t?"-0":e}var t=1/0;return r});

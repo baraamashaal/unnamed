@@ -1,0 +1,1 @@
+define(["./_getNative"],function(e){var t=e(Object,"create");return t});

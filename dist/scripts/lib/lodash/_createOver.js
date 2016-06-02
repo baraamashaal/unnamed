@@ -1,0 +1,1 @@
+define(["./_apply","./_arrayMap","./_baseFlatten","./_baseIteratee","./_baseUnary","./isArray","./_isFlattenableIteratee","./rest"],function(e,t,n,r,a,u,i,s){function f(f){return s(function(_){return _=1==_.length&&u(_[0])?t(_[0],a(r)):t(n(_,1,i),a(r)),s(function(t){var n=this;return f(_,function(r){return e(r,n,t)})})})}return f});

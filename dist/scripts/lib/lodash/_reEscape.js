@@ -1,0 +1,1 @@
+define([],function(){var n=/<%-([\s\S]+?)%>/g;return n});

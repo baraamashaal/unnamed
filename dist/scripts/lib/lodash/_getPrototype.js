@@ -1,0 +1,1 @@
+define([],function(){function t(t){return e(Object(t))}var e=Object.getPrototypeOf;return t});

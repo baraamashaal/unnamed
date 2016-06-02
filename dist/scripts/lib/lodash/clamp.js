@@ -1,0 +1,1 @@
+define(["./_baseClamp","./toNumber"],function(n,e){function r(r,u,a){return a===t&&(a=u,u=t),a!==t&&(a=e(a),a=a===a?a:0),u!==t&&(u=e(u),u=u===u?u:0),n(e(r),u,a)}var t;return r});

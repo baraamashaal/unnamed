@@ -1,0 +1,1 @@
+define(["./_indexOfNaN","./toInteger"],function(r,n){function t(t,a,u){var o=t?t.length:0;if(!o)return-1;var h=o;if(u!==e&&(h=n(u),h=(0>h?f(o+h,0):i(h,o-1))+1),a!==a)return r(t,h-1,!0);for(;h--;)if(t[h]===a)return h;return-1}var e,f=Math.max,i=Math.min;return t});

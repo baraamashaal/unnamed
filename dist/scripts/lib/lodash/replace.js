@@ -1,0 +1,1 @@
+define(["./toString"],function(n){function r(){var r=arguments,t=n(r[0]);return r.length<3?t:e.call(t,r[1],r[2])}var t=String.prototype,e=t.replace;return r});

@@ -1,0 +1,1 @@
+define([],function(){function n(n,o){return n+r(t()*(o-n+1))}var r=Math.floor,t=Math.random;return n});

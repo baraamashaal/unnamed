@@ -1,0 +1,1 @@
+define(["./isObjectLike"],function(t){function e(e){return"symbol"==typeof e||t(e)&&r.call(e)==o}var o="[object Symbol]",n=Object.prototype,r=n.toString;return e});

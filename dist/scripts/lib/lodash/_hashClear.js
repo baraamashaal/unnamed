@@ -1,0 +1,1 @@
+define(["./_nativeCreate"],function(n){function t(){this.__data__=n?n(null):{}}return t});

@@ -1,0 +1,1 @@
+define(["./_castPath","./isArguments","./isArray","./_isIndex","./_isKey","./isLength","./isString","./_toKey"],function(n,r,e,t,i,s,a,u){function f(f,g,h){g=i(g,f)?[g]:n(g);for(var l,o=-1,_=g.length;++o<_;){var c=u(g[o]);if(!(l=null!=f&&h(f,c)))break;f=f[c]}if(l)return l;var _=f?f.length:0;return!!_&&s(_)&&t(c,_)&&(e(f)||a(f)||r(f))}return f});

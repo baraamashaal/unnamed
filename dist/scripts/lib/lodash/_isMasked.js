@@ -1,0 +1,1 @@
+define(["./_coreJsData"],function(n){function e(n){return!!r&&r in n}var r=function(){var e=/[^.]+$/.exec(n&&n.keys&&n.keys.IE_PROTO||"");return e?"Symbol(src)_1."+e:""}();return e});

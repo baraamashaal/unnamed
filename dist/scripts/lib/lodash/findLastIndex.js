@@ -1,0 +1,1 @@
+define(["./_baseFindIndex","./_baseIteratee","./toInteger"],function(e,n,t){function r(r,f,d){var h=r?r.length:0;if(!h)return-1;var o=h-1;return d!==a&&(o=t(d),o=0>d?i(h+o,0):u(o,h-1)),e(r,n(f,3),o,!0)}var a,i=Math.max,u=Math.min;return r});

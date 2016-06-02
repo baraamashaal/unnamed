@@ -1,0 +1,1 @@
+define(["./_compareAscending"],function(r){function e(e,n,i){for(var t=-1,c=e.criteria,a=n.criteria,f=c.length,u=i.length;++t<f;){var d=r(c[t],a[t]);if(d){if(t>=u)return d;var o=i[t];return d*("desc"==o?-1:1)}}return e.index-n.index}return e});

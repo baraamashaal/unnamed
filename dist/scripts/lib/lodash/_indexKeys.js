@@ -1,0 +1,1 @@
+define(["./_baseTimes","./isArguments","./isArray","./isLength","./isString"],function(n,r,i,e,t){function s(s){var g=s?s.length:u;return e(g)&&(i(s)||t(s)||r(s))?n(g,String):null}var u;return s});

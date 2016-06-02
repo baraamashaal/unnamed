@@ -1,0 +1,1 @@
+define(["./isObject"],function(t){function e(e){return t(e)&&c.call(e)==n}var n="[object RegExp]",r=Object.prototype,c=r.toString;return e});

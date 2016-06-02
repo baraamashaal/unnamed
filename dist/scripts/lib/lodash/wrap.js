@@ -1,0 +1,1 @@
+define(["./identity","./partial"],function(n,t){function i(i,e){return e=null==e?n:e,t(e,i)}return i});

@@ -1,0 +1,1 @@
+define(["./_createCompounder","./upperFirst"],function(r,e){var n=r(function(r,n,t){return r+(t?" ":"")+e(n)});return n});

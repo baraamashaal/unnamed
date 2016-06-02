@@ -1,0 +1,1 @@
+define([],function(){function n(n,r){for(var e=-1,t=n?n.length:0;++e<t;)if(!r(n[e],e,n))return!1;return!0}return n});

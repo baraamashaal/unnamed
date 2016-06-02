@@ -1,0 +1,1 @@
+define(["./_root","./toString"],function(n,t){function r(n,r,u){return u||null==r?r=0:r&&(r=+r),n=t(n).replace(e,""),o(n,r||(i.test(n)?16:10))}var e=/^\s+|\s+$/g,i=/^0x/i,o=n.parseInt;return r});

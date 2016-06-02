@@ -1,0 +1,1 @@
+define(["./_realNames"],function(n){function r(r){for(var e=r.name+"",a=n[e],u=t.call(n,e)?a.length:0;u--;){var f=a[u],l=f.func;if(null==l||l==r)return f.name}return e}var e=Object.prototype,t=e.hasOwnProperty;return r});

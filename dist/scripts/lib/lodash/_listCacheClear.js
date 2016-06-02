@@ -1,0 +1,1 @@
+define([],function(){function n(){this.__data__=[]}return n});

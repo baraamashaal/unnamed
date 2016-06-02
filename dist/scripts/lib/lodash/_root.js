@@ -1,0 +1,1 @@
+define(["./_checkGlobal"],function(e){var t=e("object"==typeof global&&global),o=e("object"==typeof self&&self),l=e("object"==typeof this&&this),c=t||o||l||Function("return this")();return c});

@@ -1,0 +1,1 @@
+define(["./_baseGet","./_baseSlice"],function(e,n){function t(t,i){return 1==i.length?t:e(t,n(i,0,-1))}return t});

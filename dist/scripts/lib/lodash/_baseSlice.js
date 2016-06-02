@@ -1,0 +1,1 @@
+define([],function(){function r(r,n,e){var t=-1,f=r.length;0>n&&(n=-n>f?0:f+n),e=e>f?f:e,0>e&&(e+=f),f=n>e?0:e-n>>>0,n>>>=0;for(var u=Array(f);++t<f;)u[t]=r[t+n];return u}return r});

@@ -1,0 +1,1 @@
+define(["./_castPath","./_isKey","./_toKey"],function(n,t,e){function r(r,a){a=t(a,r)?[a]:n(a);for(var f=0,i=a.length;null!=r&&i>f;)r=r[e(a[f++])];return f&&f==i?r:u}var u;return r});

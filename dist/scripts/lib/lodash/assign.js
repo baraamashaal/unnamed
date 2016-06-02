@@ -1,0 +1,1 @@
+define(["./_assignValue","./_copyObject","./_createAssigner","./isArrayLike","./_isPrototype","./keys"],function(e,r,t,a,n,i){var o=Object.prototype,s=o.hasOwnProperty,c=o.propertyIsEnumerable,l=!c.call({valueOf:1},"valueOf"),u=t(function(t,o){if(l||n(o)||a(o))return void r(o,i(o),t);for(var c in o)s.call(o,c)&&e(t,c,o[c])});return u});

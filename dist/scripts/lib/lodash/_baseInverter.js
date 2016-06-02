@@ -1,0 +1,1 @@
+define(["./_baseForOwn"],function(n){function e(e,r,t,u){return n(e,function(n,e,f){r(u,t(n),e,f)}),u}return e});

@@ -1,0 +1,1 @@
+define(["./toString","./_unescapeHtmlChar"],function(t,e){function n(n){return n=t(n),n&&u.test(n)?n.replace(r,e):n}var r=/&(?:amp|lt|gt|quot|#39|#96);/g,u=RegExp(r.source);return n});

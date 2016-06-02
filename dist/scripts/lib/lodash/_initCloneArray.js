@@ -1,0 +1,1 @@
+define([],function(){function n(n){var t=n.length,r=n.constructor(t);return t&&"string"==typeof n[0]&&e.call(n,"index")&&(r.index=n.index,r.input=n.input),r}var t=Object.prototype,e=t.hasOwnProperty;return n});

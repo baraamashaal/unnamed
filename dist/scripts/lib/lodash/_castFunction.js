@@ -1,0 +1,1 @@
+define(["./identity"],function(n){function t(t){return"function"==typeof t?t:n}return t});

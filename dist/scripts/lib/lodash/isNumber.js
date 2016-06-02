@@ -1,0 +1,1 @@
+define(["./isObjectLike"],function(e){function t(t){return"number"==typeof t||e(t)&&o.call(t)==n}var n="[object Number]",r=Object.prototype,o=r.toString;return t});

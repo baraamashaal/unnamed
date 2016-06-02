@@ -1,0 +1,1 @@
+define(["./isArrayLike"],function(n){function r(r,e){return function(t,u){if(null==t)return t;if(!n(t))return r(t,u);for(var i=t.length,f=e?i:-1,c=Object(t);(e?f--:++f<i)&&u(c[f],f,c)!==!1;);return t}}return r});

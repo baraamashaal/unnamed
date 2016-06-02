@@ -1,0 +1,1 @@
+define(["./_root"],function(r){var n=r.Uint8Array;return n});

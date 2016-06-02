@@ -1,0 +1,1 @@
+define(["./ary"],function(n){function r(r){return n(r,1)}return r});

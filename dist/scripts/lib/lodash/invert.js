@@ -1,0 +1,1 @@
+define(["./constant","./_createInverter","./identity"],function(n,t,e){var r=t(function(n,t,e){n[t]=e},n(e));return r});

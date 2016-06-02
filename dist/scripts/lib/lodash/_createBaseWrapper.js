@@ -1,0 +1,1 @@
+define(["./_createCtorWrapper","./_root"],function(r,t){function n(n,i,a){function o(){var r=this&&this!==t&&this instanceof o?c:n;return r.apply(u?a:this,arguments)}var u=i&e,c=r(n);return o}var e=1;return n});

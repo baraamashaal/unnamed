@@ -1,0 +1,1 @@
+define(["./_deburrLetter","./toString"],function(e,f){function r(r){return r=f(r),r&&r.replace(u,e).replace(d,"")}var u=/[\xc0-\xd6\xd8-\xde\xdf-\xf6\xf8-\xff]/g,x="\\u0300-\\u036f\\ufe20-\\ufe23",n="\\u20d0-\\u20f0",t="["+x+n+"]",d=RegExp(t,"g");return r});

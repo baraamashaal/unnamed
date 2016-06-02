@@ -1,0 +1,1 @@
+define(["./isArray"],function(n){function r(){if(!arguments.length)return[];var r=arguments[0];return n(r)?r:[r]}return r});

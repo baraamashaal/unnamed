@@ -1,0 +1,1 @@
+define(["./isArguments","./isArray"],function(n,r){function e(e){return r(e)||n(e)}return e});

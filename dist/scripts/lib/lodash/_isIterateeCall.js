@@ -1,0 +1,1 @@
+define(["./eq","./isArrayLike","./_isIndex","./isObject"],function(n,e,r,i){function t(t,u,f){if(!i(f))return!1;var s=typeof u;return("number"==s?e(f)&&r(u,f.length):"string"==s&&u in f)?n(f[u],t):!1}return t});

@@ -1,0 +1,1 @@
+define(["./_baseClamp","./toInteger"],function(n,e){function r(r){return n(e(r),-t,t)}var t=9007199254740991;return r});

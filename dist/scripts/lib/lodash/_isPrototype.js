@@ -1,0 +1,1 @@
+define([],function(){function t(t){var o=t&&t.constructor,r="function"==typeof o&&o.prototype||n;return t===r}var n=Object.prototype;return t});

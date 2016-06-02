@@ -1,0 +1,1 @@
+define(["./_getMapData"],function(t){function n(n){return t(this,n).get(n)}return n});

@@ -1,0 +1,1 @@
+define(["./_copyObject","./_getSymbols"],function(n,e){function t(t,c){return n(t,e(t),c)}return t});

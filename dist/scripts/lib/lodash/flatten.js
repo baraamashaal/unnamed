@@ -1,0 +1,1 @@
+define(["./_baseFlatten"],function(n){function e(e){var t=e?e.length:0;return t?n(e,1):[]}return e});

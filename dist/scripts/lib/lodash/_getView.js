@@ -1,0 +1,1 @@
+define([],function(){function e(e,r,n){for(var i=-1,c=n.length;++i<c;){var s=n[i],h=s.size;switch(s.type){case"drop":e+=h;break;case"dropRight":r-=h;break;case"take":r=t(r,e+h);break;case"takeRight":e=a(e,r-h)}}return{start:e,end:r}}var a=Math.max,t=Math.min;return e});

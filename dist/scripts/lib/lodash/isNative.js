@@ -1,0 +1,1 @@
+define(["./_baseIsNative","./_isMaskable"],function(t,e){function s(s){if(e(s))throw new Error("This method is not supported with `core-js`. Try https://github.com/es-shims.");return t(s)}return s});

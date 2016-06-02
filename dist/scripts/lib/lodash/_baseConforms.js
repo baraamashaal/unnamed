@@ -1,0 +1,1 @@
+define(["./keys"],function(n){function r(r){var t=n(r),u=t.length;return function(n){if(null==n)return!u;for(var f=u;f--;){var i=t[f],a=r[i],c=n[i];if(c===e&&!(i in Object(n))||!a(c))return!1}return!0}}var e;return r});

@@ -1,0 +1,1 @@
+define([],function(){function n(n){return function(u){return null==u?r:u[n]}}var r;return n});

@@ -1,0 +1,1 @@
+define(["./toString"],function(n){function t(t){return n(t).toUpperCase()}return t});

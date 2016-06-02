@@ -1,0 +1,1 @@
+define(["./_assignValue","./_castPath","./_isIndex","./_isKey","./isObject","./_toKey"],function(n,e,r,a,i,t){function u(u,l,s,v){l=a(l,u)?[l]:e(l);for(var _=-1,c=l.length,o=c-1,d=u;null!=d&&++_<c;){var g=t(l[_]);if(i(d)){var h=s;if(_!=o){var y=d[g];h=v?v(y,g,d):f,h===f&&(h=null==y?r(l[_+1])?[]:{}:y)}n(d,g,h)}d=d[g]}return u}var f;return u});

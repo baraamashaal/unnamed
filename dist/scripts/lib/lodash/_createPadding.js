@@ -1,0 +1,1 @@
+define(["./_baseRepeat","./_baseToString","./_castSlice","./_reHasComplexSymbol","./_stringSize","./_stringToArray"],function(e,r,t,n,i,a){function s(s,l){l=l===o?" ":r(l);var _=l.length;if(2>_)return _?e(l,s):l;var u=e(l,c(s/i(l)));return n.test(l)?t(a(u),0,s).join(""):u.slice(0,s)}var o,c=Math.ceil;return s});

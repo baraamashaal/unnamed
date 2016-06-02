@@ -1,0 +1,1 @@
+define(["./_Uint8Array"],function(n){function e(e){var t=new e.constructor(e.byteLength);return new n(t).set(new n(e)),t}return e});

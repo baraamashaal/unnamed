@@ -1,0 +1,1 @@
+define(["./isObject"],function(n){function e(e){return e===e&&!n(e)}return e});

@@ -1,0 +1,1 @@
+define(["./_apply","./_createCtorWrapper","./_root"],function(r,t,n){function e(e,o,a,f){function h(){for(var t=-1,i=arguments.length,o=-1,s=f.length,p=Array(s+i),l=this&&this!==n&&this instanceof h?c:e;++o<s;)p[o]=f[o];for(;i--;)p[o++]=arguments[++t];return r(l,u?a:this,p)}var u=o&i,c=t(e);return h}var i=1;return e});

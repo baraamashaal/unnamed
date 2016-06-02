@@ -1,0 +1,1 @@
+define(["./isObjectLike","./isPlainObject"],function(e,n){function i(i){return!!i&&1===i.nodeType&&e(i)&&!n(i)}return i});

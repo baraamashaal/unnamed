@@ -1,0 +1,1 @@
+define(["./_Stack","./_arrayEach","./_assignMergeValue","./_baseMergeDeep","./isArray","./isObject","./isTypedArray","./keysIn"],function(e,r,a,i,n,s,f,c){function t(y,_,g,o,v){if(y!==_){if(!n(_)&&!f(_))var b=c(_);r(b||_,function(r,n){if(b&&(n=r,r=_[n]),s(r))v||(v=new e),i(y,_,n,g,t,o,v);else{var f=o?o(y[n],r,n+"",y,_,v):u;f===u&&(f=r),a(y,n,f)}})}}var u;return t});

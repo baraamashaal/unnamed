@@ -1,0 +1,1 @@
+define(["./_isLaziable","./_setData"],function(a,e){function r(r,o,p,v,d,s,_,b,h,y){var z=o&u,D=z?_:n,L=z?n:_,g=z?s:n,j=z?n:s;o|=z?c:f,o&=~(z?f:c),o&l||(o&=~(t|i));var k=[r,o,d,g,D,j,L,b,h,y],m=p.apply(n,k);return a(r)&&e(m,k),m.placeholder=v,m}var n,t=1,i=2,l=4,u=8,c=32,f=64;return r});

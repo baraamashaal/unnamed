@@ -1,0 +1,1 @@
+define([],function(){function n(n){if("function"!=typeof n)throw new TypeError(t);return function(){return!n.apply(this,arguments)}}var t="Expected a function";return n});

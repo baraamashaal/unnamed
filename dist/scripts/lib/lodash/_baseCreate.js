@@ -1,0 +1,1 @@
+define(["./isObject"],function(e){function n(n){return e(n)?t(n):{}}var t=Object.create;return n});

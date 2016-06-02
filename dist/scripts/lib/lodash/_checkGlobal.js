@@ -1,0 +1,1 @@
+define([],function(){function n(n){return n&&n.Object===Object?n:null}return n});
